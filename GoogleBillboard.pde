@@ -9,12 +9,23 @@ public void setup()
     		System.out.println(ten);
     		break;
     	}
+    	int sum = 0;
+    	for(int k = 0; k < e.length(); k ++){
+    		sum += Double.parseDouble(ten);
+    		if(sum == 49){
+    			System.out.println(ten);
+    			break;
+    		}
+    	}	
     }
+
 }  
 public void draw()  
 {   
 	//not needed for this assignment
 }  
+
+
 public boolean isPrime(double dNum)  
 {   
     //your code here
